@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>University Website</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/logo-removebg-preview (1).png"></a>
+                <div class="nav-links" id="nav-links">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="Course.html">COURSE</a></li>
+                        <li><a href="Blog.html">BLOG</a></li>
+                        <li><a href="Contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+          <h1>ABOUT US</h1>
+        </section>
+         <!------------about us content-------->
+         <section class="about-us">
+            <div class="row">
+                <div class="about-col">
+                    <h1>We Are The World Largest University</h1>
+                    <p>عن كلية العلوم
+                        تُعد كلية العلوم واحدة من الركائز الأساسية في الجامعة، حيث تهدف إلى تقديم تعليم عالي الجودة في مجالات العلوم الأساسية والتطبيقية.  <br />تسعى الكلية إلى تأهيل الطلاب بالمعرفة العلمية والمهارات العملية التي تمكنهم من المساهمة في تطوير المجتمع وحل التحديات المعاصرة.<br /> كما تُولي الكلية أهمية كبيرة للبحث العلمي والإبداع، وتوفر بيئة تعليمية متميزة تجمع بين النظريات العلمية والتطبيقات العملية، <br /> مما يُعزز من فرص الطلاب في سوق العمل ويُسهم في رفد المجتمع بخريجين مؤهلين.
+                   </p>
+                        <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+                </div>
+                <div class="about-col">
+                    <img src="images/images (3).jpg">
+                </div>
+            </div>
+         </section>
+      <!------------Footer-------->
+      <section class="footer">
+            <h4>ABOUT US</h4>
+            <P>
+                عن كلية العلوم
+                تُعد كلية العلوم واحدة من الركائز الأساسية في الجامعة، حيث تهدف إلى تقديم تعليم عالي الجودة في مجالات العلوم الأساسية والتطبيقية.  <br />تسعى الكلية إلى تأهيل الطلاب بالمعرفة العلمية والمهارات العملية التي تمكنهم من المساهمة في تطوير المجتمع وحل التحديات المعاصرة.<br /> كما تُولي الكلية أهمية كبيرة للبحث العلمي والإبداع، وتوفر بيئة تعليمية متميزة تجمع بين النظريات العلمية والتطبيقات العملية، <br /> مما يُعزز من فرص الطلاب في سوق العمل ويُسهم في رفد المجتمع بخريجين مؤهلين.
+           
+            </P>
+            <div class="icon">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+            <p><i class="fa fa-heart-o"></i> By Bissan Fahmawi</p>
+      </section>
+        <!------------JavaScript for Toggle Menu -------->
+        <script>
+            var navLinks = document.getElementById("nav-links");
+            function showMenu() {
+                navLinks.style.right = "0";
+            }
+            function hideMenu() {
+                navLinks.style.right = "-200px";
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>University Website</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/logo-removebg-preview (1).png"></a>
+                <div class="nav-links" id="nav-links">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="Course.html">COURSE</a></li>
+                        <li><a href="Blog.html">BLOG</a></li>
+                        <li><a href="Contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+          <h1>Our Courses</h1>
+        </section>
+        <!------------Course-------->
+        <section class="Course">
+            <h1>Courses We Offer</h1>
+            <p>consectetur adipiscing elit.</p>
+            <div class="row">
+                <div class="Course-col">
+                    <h3>JAVA</h3>
+                    <p>Java is a high-level, object-oriented programming language widely used for building platform-independent applications. It is popular for developing enterprise-level applications, Android apps, and web servers due to its robustness, scalability, and extensive library support.
+                    </p>
+                </div>
+                <div class="Course-col">
+                    <h3>PYTHON</h3>
+                    <p>Python is a versatile, high-level programming language known for its simplicity and readability. It is widely used in web development, data analysis, artificial intelligence, machine learning, and scientific computing. Its vast library ecosystem makes it an excellent choice for both beginners and advanced developers.
+                    </p>
+                </div>
+                <div class="Course-col">
+                    <h3>HTML, CSS, JS</h3>
+                    <p>HTML (HyperText Markup Language) is the standard language for creating the structure and content of web pages, CSS (Cascading Style Sheets) is used to style and format the appearance of web pages.JavaScript is a dynamic, high-level scripting language that adds interactivity and functionality to websites
+                    </p>
+                </div>
+                <div class="Course-col">
+                    <h3>ASP</h3>
+                    <p>LASP.NET is a web framework developed by Microsoft for building dynamic, data-driven websites and web applications. It supports multiple programming languages like C# and VB.NET and is known for its integration with the .NET ecosystem, making it ideal for enterprise solutions.
+                    </p>
+                </div>
+                <div class="Course-col">
+                    <h3>OOP</h3>
+                    <p>OOP is a programming paradigm based on the concept of objects, which represent real-world entities with properties (attributes) and behaviors (methods). It emphasizes principles like encapsulation, inheritance, polymorphism, and abstraction, making code reusable, scalable, and easier to maintain. It is the foundation for many modern programming languages, including Java, Python, and C#.
+                    </p>
+                </div>
+            </div>
+        </section>
+      
+     
+        <!------------JavaScript for Toggle Menu -------->
+        <script>
+            var navLinks = document.getElementById("nav-links");
+            function showMenu() {
+                navLinks.style.right = "0";
+            }
+            function hideMenu() {
+                navLinks.style.right = "-200px";
+            }
+        </script>
+    </body>
+</html>
